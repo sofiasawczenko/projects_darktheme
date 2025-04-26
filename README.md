@@ -1,4 +1,4 @@
-Personal Website v1 - Developed in Jan 2023.
+## Dark Theme Portfolio
 
 Open your terminal or command prompt and navigate to the project directory.
 

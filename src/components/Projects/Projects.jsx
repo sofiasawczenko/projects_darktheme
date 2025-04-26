@@ -11,7 +11,7 @@ const Projects = () => {
     <section>
       <div className="container card-container" id="projects">
         <div className="proj-header">
-          <h1 data-aos="fade-up">/Projects</h1>
+          <h1 data-aos="fade-up">/Projetos</h1>
         </div>
         <div class="card-deck">
           <div class="card" data-aos="fade-up">

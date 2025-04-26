@@ -7,34 +7,34 @@ export const Contact = () => {
       <div className="parent contact-father">
         <div className="container contact">
           <div className="contact-header">
-            <h1 data-aos="fade-up">/Contact</h1>
+            <h1 data-aos="fade-up">/Contato</h1>
           </div>
           <div className="contact-description">
             <div className="row">
               <div className="title">
-                <h2 data-aos="fade-up">Lorem ipsum</h2>
+                <h2 data-aos="fade-up">Entre em Contato</h2>
               </div>
             </div>
             <div className="row">
-              <div className="get-touch">
-                <p data-aos="fade-up">Lorem ipsum</p>
-              </div>
+              {/* <div className="get-touch">
+                <p data-aos="fade-up">Entre em Contato</p>
+              </div> */}
             </div>
             <div className="row">
               <div className="statement">
                 <p data-aos="fade-up">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet!
+                Qualquer duvida ou se deseja apenas dar o seu Oi ou Feedback, estarei feliz em receber e assim que possivel irei te retornar!
                 </p>
               </div>
             </div>
             <div className="row">
               <div className="hello-button">
-                <a href="mailto:aradhya@my.yorku.ca">
+                <a href="mailto:sofiawko@gmail.com">
                   <button
                     className="btn btn-outline-primary"
                     data-aos="fade-up"
                   >
-                    Lorem ipsum.
+                    Diga Ola!
                   </button>
                 </a>
               </div>
