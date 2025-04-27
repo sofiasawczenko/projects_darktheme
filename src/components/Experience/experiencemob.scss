@@ -7,7 +7,7 @@
   background-color: transparent;
 
   .accordion-header {
-    color: grey;
+    color: #0C0B16;
   }
 
   .accordion-button {
@@ -24,7 +24,7 @@
 
     &[aria-expanded="true"] {
       border-radius: 5px;
-      background-color: rgba($color: #64ffda, $alpha: 0.5);
+      background-color: rgba($color: #0C0B16, $alpha: 0.5);
       color: var(--color-white);
     }
   }
@@ -41,8 +41,10 @@
 }
 
 .accordion-button {
-  background-color: rgba($color: #ffffff, $alpha: 0.1);
+  background-color: #0C0B16;
+  border: 1px solid #17161f;
   backdrop-filter: blur(10px);
+  margin: 2px;
   border-radius: 5px;
 }
 .accordion-button {

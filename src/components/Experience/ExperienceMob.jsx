@@ -22,8 +22,8 @@ const ExperienceMob = () => {
                 aria-expanded="true"
                 aria-controls="panelsStayOpen-collapseOne"
               >
-                Company1
-                <img className="exp-logo-white" src={download}></img>
+                Academica
+                {/* <img className="exp-logo-white" src={download}></img> */}
               </button>
             </h2>
             <div
@@ -73,8 +73,8 @@ const ExperienceMob = () => {
                 aria-expanded="false"
                 aria-controls="panelsStayOpen-collapseTwo"
               >
-                Company2
-                <img src={download}></img>
+                Embraer
+                {/* <img src={download}></img> */}
               </button>
             </h2>
             <div
@@ -118,8 +118,8 @@ const ExperienceMob = () => {
                 aria-expanded="false"
                 aria-controls="panelsStayOpen-collapseThree"
               >
-                Company3
-                <img className="exp-logo-white" src={download}></img>
+                Johnson & Johnson
+                {/* <img className="exp-logo-white" src={download}></img> */}
               </button>
             </h2>
             <div
@@ -156,7 +156,7 @@ const ExperienceMob = () => {
             </div>
           </div>
 
-          <div class="accordion-item" data-aos="fade-right">
+          {/* <div class="accordion-item" data-aos="fade-right">
             <h2 class="accordion-header" id="panelsStayOpen-headingFour">
               <button
                 class="accordion-button collapsed"
@@ -166,8 +166,8 @@ const ExperienceMob = () => {
                 aria-expanded="false"
                 aria-controls="panelsStayOpen-collapseFour"
               >
-                Company4
-                <img src={download}></img>
+                Johnson & Johnson
+                 <img src={download}></img>
               </button>
             </h2>
             <div
@@ -203,8 +203,8 @@ const ExperienceMob = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div class="accordion-item" data-aos="fade-left">
+          </div> */}
+          {/* <div class="accordion-item" data-aos="fade-left">
             <h2 class="accordion-header" id="panelsStayOpen-headingFive">
               <button
                 class="accordion-button collapsed"
@@ -247,7 +247,7 @@ const ExperienceMob = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

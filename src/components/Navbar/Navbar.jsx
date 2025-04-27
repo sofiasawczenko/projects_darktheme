@@ -36,7 +36,7 @@ const Navbar = () => {
             href="#about"
             onClick={() => handleClick("about")}
           >
-            <span class="digit">02.</span> <span class="text">About</span>
+            <span class="digit">02.</span> <span class="text">Sobre mim</span>
           </a>
         </li>
         <li class="nav-item">
@@ -45,7 +45,7 @@ const Navbar = () => {
             href="#experience"
             onClick={() => handleClick("experience")}
           >
-            <span class="digit">03.</span> <span class="text">Experience</span>
+            <span class="digit">03.</span> <span class="text">Experiencia</span>
           </a>
         </li>
         <li class="nav-item">
@@ -56,7 +56,7 @@ const Navbar = () => {
             tabindex="-1"
             aria-disabled="true"
           >
-            <span class="digit">04.</span> <span class="text">Projects</span>
+            <span class="digit">04.</span> <span class="text">Projetos</span>
           </a>
         </li>
         <li class="nav-item">
@@ -67,7 +67,7 @@ const Navbar = () => {
             tabindex="-1"
             aria-disabled="true"
           >
-            <span class="digit">05.</span> <span class="text">Contact</span>
+            <span class="digit">05.</span> <span class="text">Contato</span>
           </a>
         </li>
       </ul>

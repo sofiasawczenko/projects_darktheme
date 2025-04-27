@@ -17,8 +17,8 @@ export const Header = () => {
       cursor: "|",
     })
       .pauseFor(300)
-      .typeString("Oi! eu sou ")
-      .typeString('<span style="color: #64ffda;">Sofia Sawczenko.</span>')
+      .typeString("Hi, I'm ")
+      .typeString('<span style="color: #986DFF;">Sofia.</span>')
       .start();
   }, []);
 
@@ -31,7 +31,7 @@ export const Header = () => {
               <h1 ref={headingRef} />
             </div>
             <div className="row header-two" data-aos="fade-up">
-              <h2>Ciencia de Dados</h2>
+              <h2>welcome to my Portfolio</h2>
             </div>
             <div className="row landing-description" data-aos="fade-up">
               <p>
@@ -48,7 +48,7 @@ export const Header = () => {
             </div>
             <div className="resume-btn" data-aos="fade-up">
               <button class="btn btn-outline-primary btn-lg resume-tag" data-aos="fade-up">
-                <a href={DummyDoc}>Lorem</a>
+                <a href={DummyDoc}>Curriculum</a>
               </button>
             </div>
           </div>
