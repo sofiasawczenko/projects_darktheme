@@ -18,7 +18,7 @@ export const Header = () => {
       cursor: "|",
     })
       .pauseFor(300)
-      .typeString("Hi, I'm ")
+      .typeString("Oi, me chamo ")
       .typeString('<span style="color: #986DFF;">Sofia.</span>')
       .start();
   }, []);
@@ -32,7 +32,7 @@ export const Header = () => {
               <h1 ref={headingRef} aria-label="Hi, I'm Sofia.">Hi, I'm Sofia.</h1>
             </div>
             <div className="row header-two" data-aos="fade-up">
-              <h2>Bem-vindo(a) ao meu Portfolio de Data Science</h2>
+              <h2>Bem-vindo ao meu Portfolio de Data Science</h2>
             </div>
             <div className="row landing-description" data-aos="fade-up">
               <p>
