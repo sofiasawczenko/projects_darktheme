@@ -22,7 +22,7 @@ const ExperienceMob = () => {
                 aria-expanded="false"
                 aria-controls="panelsStayOpen-collapseOne"
               >
-                Projetos de Extensao
+                Extracurricular na Universidade
                 {/* <img className="exp-logo-white" src={download}></img> */}
               </button>
             </h2>
@@ -34,30 +34,53 @@ const ExperienceMob = () => {
               <div class="accordion-body">
                 <div className="role-title" data-aos="fade-up">
                   <p>
-                  Chief Happiness Officer @{" "}
-                    <a href="https://google.com/">Company1</a>
+                  <strong>Engenharia Mecanica @{" "}</strong>
+                    <a href="https://google.com/">Universidade Estadual de Maringa</a>
                   </p>
+                  </div>
+                  <div className="role-time" data-aos="fade-up">
+                    <p> Janeiro, 2019 - Dezembro, 2022</p>
+                  </div>
+                  <div className="role-description">
+                    <ul>
+                      <li data-aos="fade-up">
+                      Intercambio Academico @{" "}
+                      <a href="https://www.uq.edu.au/">University of Calgary</a>
+                      </li>
+                      <li data-aos="fade-up">
+                      Monitoria na Disciplina Estatistica
+                      </li>
+                      <li data-aos="fade-up">
+                      Monitoria na Disciplina de Algebra Linear
+                      </li>
+                      <li data-aos="fade-up">
+                      Co-Fundadora e Assessora de Estruturas no Aerodesign (Modelagem)
+                      </li>
+                      <li data-aos="fade-up">
+                      Assessora de Projetos na Empresa Junior de Engenharia (Top 5 Brasil)
+                      </li>
+                  </ul>
                 </div>
-                <div className="role-time" data-aos="fade-up">
-                  <p> January 1, 2000.-Present</p>
-                </div>
-                <div className="role-description">
-                  <ul>
-                    <li data-aos="fade-up">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                    </li>
-                    <li data-aos="fade-up">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                    </li>
-                    <li data-aos="fade-up">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                    </li>
-                    <li data-aos="fade-up">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                    </li>
-                    <li data-aos="fade-up">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                    </li>
+                <div className="role-title" data-aos="fade-up">
+                  <p>
+                  <strong>Engenharia de Software @{" "}</strong>
+                    <a href="https://google.com/">FIAP</a>
+                  </p>
+                  </div>
+                  <div className="role-time" data-aos="fade-up">
+                    <p> Janeiro, 2023 - Dezembro, 2026</p>
+                  </div>
+                  <div className="role-description">
+                    <ul>
+                      <li data-aos="fade-up">
+                      Bolsa de Estudos por Excelencia Academica.
+                      </li>
+                      <li data-aos="fade-up">
+                      Finalista +5 projetos academicos.
+                      </li>
+                      <li data-aos="fade-up">
+                      Iniciacao Cientifica em Inteligencia Artificial (Em andamento).
+                      </li>
                   </ul>
                 </div>
               </div>
@@ -89,24 +112,33 @@ const ExperienceMob = () => {
               <div class="accordion-body">
               <div className="role-title" data-aos="fade-up">
                   <p>
-                  Chief Happiness Officer @{" "}
-                    <a href="https://google.com/">Company2</a>
+                  <strong>Estagio em Engenharia de Software @{" "}</strong>
+                    <a href="https://embraer.com/br/pt">Embraer</a>
                   </p>
                 </div>
                 <div className="role-time">
-                  <p> January 1, 2000.-Present</p>
+                  <p> Janeiro, 2023 - Agosto de 2024</p>
                 </div>
                 <div className="role-description">
                   <ul>
-                    <li data-aos="fade-up">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                    </li>
-                    <li data-aos="fade-up">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                    </li>
-                    <li data-aos="fade-up">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                    </li>
+                  <li data-aos="fade-up">
+                    Refatorei o Front-End do processo de autenticacao do FlyEmbraer, a maior plataforma da Embraer (100K+ usuarios), utilizando AWS VM, PHP e JavaScript.
+                  </li>
+                  <li data-aos="fade-up">
+                    Corrigi bugs no OnePlace, uma aplicacao interna de reservas de mesas de trabalho (20K usuarios), utilizando TypeScript e Next.js no front-end e Java no back-end.
+                  </li>
+                  <li data-aos="fade-up">
+                    Utilizei metodologias ageis como Scrum e Kanban, e ferramentas como JIRA e Confluence para gerenciar o progresso dos projetos.
+                  </li> 
+                  <li data-aos="fade-up">
+                    Realizei queries SQL para extrair e manipular dados de bancos de dados relacionais, utilizando DBeaver para interagir com o banco de dados PostgreSQL.
+                  </li> 
+                  <li data-aos="fade-up">
+                  Em todos os projetos, segui principios de System Design e Clean Code para garantir a manutenibilidade do codigo.
+                  </li> 
+                  <li data-aos="fade-up">
+                  Realizei testes unitarios e manuais para garantir a qualidade da entrega, utilizando ferramentas como JUnit e a criacao de scripts de teste.
+                  </li> 
                   </ul>
                 </div>
               </div>
@@ -115,11 +147,11 @@ const ExperienceMob = () => {
           <div class="accordion-item" data-aos="fade-left">
             <h2 class="accordion-header" id="panelsStayOpen-headingThree">
               <button
-                class="accordion-button"
+                class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#panelsStayOpen-collapseThree"
-                aria-expanded="true"
+                aria-expanded="false"
                 aria-controls="panelsStayOpen-collapseThree"
               >
                 Johnson & johnson
@@ -132,39 +164,38 @@ const ExperienceMob = () => {
             </h2>
             <div
               id="panelsStayOpen-collapseThree"
-              class="accordion-collapse collapse show"
+              class="accordion-collapse collapse"
               aria-labelledby="panelsStayOpen-headingThree"
             >
               <div class="accordion-body">
                 <div className="role-title">
                   <p>
-                  Chief Happiness Officer @{" "}
-                    <a href="https://google.com/">
-                    Company3
+                  <strong>Estagio em IT Supply Chain @{" "}</strong>
+                    <a href="https://www.jnj.com/">
+                    Johnson & Johnson
                     </a>
                   </p>
                 </div>
                 <div className="role-time">
-                  <p> January 1, 2000.-Present</p>
+                  <p> Agosto, 2024 - Presente</p>
                 </div>
                 <div className="role-description">
                   <ul>
                     <li>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                    Estruturei queries em SQL e construi visualizacoes de dados com alta volumetria no Databricks.
                     </li>
                     <li>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                    Documentei processos tecnicos na plataforma Confluence, facilitando a comunicacao entre os times.
                     </li>
                     <li>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                    Automatizei processos internos utilizando Power Automate e Power Apps.
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
-
-          {/* <div class="accordion-item" data-aos="fade-right">
+          <div class="accordion-item" data-aos="fade-right">
             <h2 class="accordion-header" id="panelsStayOpen-headingFour">
               <button
                 class="accordion-button collapsed"
@@ -174,8 +205,8 @@ const ExperienceMob = () => {
                 aria-expanded="false"
                 aria-controls="panelsStayOpen-collapseFour"
               >
-                Johnson & Johnson
-                 <img src={download}></img>
+                Voluntariado
+                 {/* <img src={download}></img> */}
               </button>
             </h2>
             <div
@@ -186,32 +217,26 @@ const ExperienceMob = () => {
               <div class="accordion-body">
                 <div className="role-title">
                   <p>
-                  Chief Happiness Officer @{" "}
-                    <a href="https://google.com/">Company4</a>
+                  Voluntaria para desenvolvimento de {" "}
+                    <a href="https://google.com/">meninas em STEM</a>
                   </p>
                 </div>
                 <div className="role-time">
-                  <p> January 1, 2000.-Present</p>
+                  {/* <p> January 1, 2000.-Present</p> */}
                 </div>
                 <div className="role-description">
-                  <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                  </p>
                   <ul>
                     <li>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                    No projeto "Programadoras da Vida", atuo no desenvolvimento de carreira em tecnologia para meninas do Ensino Medio.
                     </li>
                     <li>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                    </li>
-                    <li>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                    Mentora de carreira para meninas menores aprendizes na Johnson & Johnson.
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
-          </div> */}
+          </div>
           {/* <div class="accordion-item" data-aos="fade-left">
             <h2 class="accordion-header" id="panelsStayOpen-headingFive">
               <button

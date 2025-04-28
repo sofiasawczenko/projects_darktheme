@@ -40,6 +40,30 @@
   }
 }
 
+.role-title {
+  a {
+    color: #986DFF !important;
+    text-decoration: none;
+    
+    &:hover {
+      color: #986DFF !important;
+      opacity: 0.8;
+    }
+  }
+}
+
+.role-description {
+  a {
+    color: #986DFF !important;
+    text-decoration: none;
+    
+    &:hover {
+      color: #986DFF !important;
+      opacity: 0.8;
+    }
+  }
+}
+
 .accordion-button {
   background-color: #0C0B16;
   border: 1px solid #17161f;
