@@ -1,9 +1,10 @@
 import React, { useEffect, useRef } from "react";
 import Typewriter from "typewriter-effect/dist/core";
-import DummyDoc from "../../assets/DummyDoc.txt"
+import CV from "../../assets/CV.pdf"
 import "./header.scss";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import openIcon from "../../assets/open.svg"; 
 
 export const Header = () => {
   const headingRef = useRef(null);
@@ -28,27 +29,35 @@ export const Header = () => {
         <div className="container landing-page">
           <div className="header-page">
             <div className="row header-title" data-aos="fade-up">
-              <h1 ref={headingRef} />
+              <h1 ref={headingRef} aria-label="Hi, I'm Sofia.">Hi, I'm Sofia.</h1>
             </div>
             <div className="row header-two" data-aos="fade-up">
               <h2>welcome to my Portfolio</h2>
             </div>
             <div className="row landing-description" data-aos="fade-up">
               <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut{" "}
                 <a className="work-link" href="https://www.thescore.com/">
-                  Company1
-                </a>{" "}
-                Lorem ipsum dolor{" "}
-                <a className="work-link" href="https://fibra.com/">
-                  Company2
+                  Resolver problemas de forma logico-matematica
                 </a>
-                , Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.
+                {" "}e{" "}
+                <a className="work-link" href="https://fibra.com/">
+                  encontrar padroes em um contexto de incerteza
+                </a>
+                {" "}sempre me fascinou. Aqui, compartilho um pouco mais sobre essa busca por respostas atraves dos dados enquanto navego pelo vasto mundo da tecnologia.
               </p>
             </div>
             <div className="resume-btn" data-aos="fade-up">
-              <button class="btn btn-outline-primary btn-lg resume-tag" data-aos="fade-up">
-                <a href={DummyDoc}>Curriculum</a>
+              <button 
+                className="btn btn-outline-primary btn-lg resume-tag" 
+                data-aos="fade-up"
+                onClick={() => window.open(CV, '_blank')}
+              >
+                Curriculum
+                <img 
+                  src={openIcon} 
+                  alt="open" 
+                  style={{ marginLeft: '8px', width: 'auto', height: '16px' }}
+                />
               </button>
             </div>
           </div>

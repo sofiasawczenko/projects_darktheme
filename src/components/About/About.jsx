@@ -19,21 +19,21 @@ export const About = () => {
         </div>
         <div className="row about-description" data-aos="fade-up">
         <p>
-          Tenho experiencia em empresas multinacionais na&nbsp;
+          Tenho experiencia em empresas multinacionais como a&nbsp;
           <a className="work-link" href="https://embraer.com/br/pt">
             Embraer
           </a>
-          &nbsp;e&nbsp;
+          &nbsp;e a&nbsp;
           <a className="work-link" href="https://www.jnj.com/">
             Johnson & Johnson
-          </a>, ambas em&nbsp;
+          </a>, ambas localizadas em&nbsp;
           <a className="work-link" href="https://www.google.com/maps/place/S%C3%A3o+Jos%C3%A9+dos+Campos,+SP/@-23.1893269,-45.9455851,12z/data=!3m1!4b1!4m6!3m5!1s0x94cc4bb3858cc2e7:0xba25a33168f8c1!8m2!3d-23.2198396!4d-45.8915658!16zL20vMDNiY3F6?entry=ttu&g_ep=EgoyMDI1MDQyMy4wIKXMDSoASAFQAw%3D%3D">
             Sao Jose dos Campos, Sao Paulo
-          </a>. 
-          Participei de projetos de alta complexidade e equipes globais. 
+          </a>.
+          Nessas empresas, atuei em projetos de alta complexidade e em equipes globais. 
           Meus pilares sao flexibilidade para trabalhar em diversas frentes e tecnologias, criatividade na busca de solucoes e resiliencia diante de desafios complexos. 
           Gosto de colocar a mao na massa e sempre busco abordagens simples e pragmaticas para resolver problemas. 
-          Meu foco e desenvolver solucoes eficientes, centradas no cliente e no problema.
+          Meu foco e desenvolver solucoes eficientes, sempre centradas no problema.
         </p>
       </div>
       <div className="row about-description">

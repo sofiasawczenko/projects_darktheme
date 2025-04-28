@@ -1,7 +1,7 @@
 import React from "react";
 import "./experiencemob.scss";
-import download from "../../assets/download.png"
-import AOS from "aos";
+import Johnson from "../../assets/j&j.png"
+import embraer from "../../assets/embraer.png"
 import "aos/dist/aos.css";
 
 const ExperienceMob = () => {
@@ -15,20 +15,20 @@ const ExperienceMob = () => {
           <div class="accordion-item" data-aos="fade-left">
             <h2 class="accordion-header" id="panelsStayOpen-headingOne">
               <button
-                class="accordion-button"
+                class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#panelsStayOpen-collapseOne"
-                aria-expanded="true"
+                aria-expanded="false"
                 aria-controls="panelsStayOpen-collapseOne"
               >
-                Academica
+                Projetos de Extensao
                 {/* <img className="exp-logo-white" src={download}></img> */}
               </button>
             </h2>
             <div
               id="panelsStayOpen-collapseOne"
-              class="accordion-collapse collapse show"
+              class="accordion-collapse collapse"
               aria-labelledby="panelsStayOpen-headingOne"
             >
               <div class="accordion-body">
@@ -74,7 +74,11 @@ const ExperienceMob = () => {
                 aria-controls="panelsStayOpen-collapseTwo"
               >
                 Embraer
-                {/* <img src={download}></img> */}
+                {/* <img 
+                src={embraer} 
+                alt="Embraer" 
+                style={{ marginLeft: '1px', width: '10%', height: 'auto' }}
+                /> */}
               </button>
             </h2>
             <div
@@ -111,20 +115,24 @@ const ExperienceMob = () => {
           <div class="accordion-item" data-aos="fade-left">
             <h2 class="accordion-header" id="panelsStayOpen-headingThree">
               <button
-                class="accordion-button collapsed"
+                class="accordion-button"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#panelsStayOpen-collapseThree"
-                aria-expanded="false"
+                aria-expanded="true"
                 aria-controls="panelsStayOpen-collapseThree"
               >
-                Johnson & Johnson
-                {/* <img className="exp-logo-white" src={download}></img> */}
+                Johnson & johnson
+                {/* <img 
+                src={Johnson} 
+                alt="Johnson & Johnson" 
+                style={{ marginLeft: '1px', width: '12%', height: 'auto' }}
+                /> */}
               </button>
             </h2>
             <div
               id="panelsStayOpen-collapseThree"
-              class="accordion-collapse collapse"
+              class="accordion-collapse collapse show"
               aria-labelledby="panelsStayOpen-headingThree"
             >
               <div class="accordion-body">
