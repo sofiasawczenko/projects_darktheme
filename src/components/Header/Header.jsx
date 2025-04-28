@@ -43,7 +43,7 @@ export const Header = () => {
                 <a className="work-link" href="https://fibra.com/">
                   encontrar padroes em um contexto de incerteza
                 </a>
-                {" "}sempre me fascinou. Aqui, compartilho um pouco mais sobre essa busca por respostas atraves dos dados enquanto navego pelo vasto mundo da tecnologia.
+                {" "}sempre me fascinou. Aqui, compartilho um pouco mais minhas descobertas atraves dos dados enquanto navego pelo mundo da tecnologia.
               </p>
             </div>
             <div className="resume-btn" data-aos="fade-up">

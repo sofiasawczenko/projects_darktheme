@@ -154,7 +154,7 @@ const ExperienceMob = () => {
                 aria-expanded="false"
                 aria-controls="panelsStayOpen-collapseThree"
               >
-                Johnson & johnson
+                Johnson & Johnson
                 {/* <img 
                 src={Johnson} 
                 alt="Johnson & Johnson" 
@@ -181,8 +181,11 @@ const ExperienceMob = () => {
                 </div>
                 <div className="role-description">
                   <ul>
+                  <li>
+                    Participei do Bootcamp JEDI com duracao de 2 meses da J&J, onde aprendi Python, Inteligencia Artificial, SQL, desenvolvimento de software e outros.
+                    </li>
                     <li>
-                    Estruturei queries em SQL e construi visualizacoes de dados com alta volumetria no Databricks.
+                    Estruturei queries em SQL no Databricks e DBeaver.
                     </li>
                     <li>
                     Documentei processos tecnicos na plataforma Confluence, facilitando a comunicacao entre os times.
@@ -217,7 +220,7 @@ const ExperienceMob = () => {
               <div class="accordion-body">
                 <div className="role-title">
                   <p>
-                  Voluntaria para desenvolvimento de {" "}
+                  <strong>Voluntaria para desenvolvimento de {" "}</strong>
                     <a href="https://google.com/">meninas em STEM</a>
                   </p>
                 </div>

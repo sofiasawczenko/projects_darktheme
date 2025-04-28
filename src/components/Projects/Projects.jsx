@@ -26,12 +26,12 @@ const Projects = () => {
               </div>
             </div>
             <div class="card-body">
-              <h5 class="card-title">Lorem ipsum dolor</h5>
+              <h5 class="card-title">Robo Autonomo</h5>
               <p class="card-text">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+              Capaz de navegar de forma independente em um ambiente usando tecnicas de visao computacional para detectar obstaculos e tomar decisoes de navegacao. O robo integra hardware e software, com o Raspberry Pi lidando com o processamento de imagens e a tomada de decisoes, enquanto o Arduino controla os motores e sensores.
               </p>
             </div>
-            <div class="card-footer">Lorem, ipsum, dolor</div>
+            <div class="card-footer">Eletronica, Python, C++</div>
           </div>
           <div class="card" data-aos="fade-up">
             <div class="card-header">
@@ -52,7 +52,26 @@ const Projects = () => {
               </div>
             </div>
             <div class="card-body">
-              <h5 class="card-title">Lorem ipsum dolor</h5>
+              <h5 class="card-title">Chatbot</h5>
+              <p class="card-text">
+              Criacao de um chatbot no console utilizando RAG (Retrieval Augmented Generation) com LangChain e o LLM da OpenAI. O chatbot pode responder a perguntas com base em PDFs armazenados em uma pasta.
+              </p>
+            </div>
+            <div class="card-footer">RAG, LangChain, OpenAI</div>
+          </div>
+          <div class="card" data-aos="fade-up">
+            <div class="card-header">
+              <div className="folder">
+                <FiFolder />
+              </div>
+              <div className="git-share">
+                <a href="https://google.com/">
+                  <FiGithub />
+                </a>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Previsao de Insuficiencia Cardiaca com Aprendizado Supervisidionado</h5>
               <p class="card-text">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
               </p>
@@ -71,26 +90,7 @@ const Projects = () => {
               </div>
             </div>
             <div class="card-body">
-              <h5 class="card-title">Lorem ipsum dolor</h5>
-              <p class="card-text">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-              </p>
-            </div>
-            <div class="card-footer">Lorem, ipsum, dolor</div>
-          </div>
-          <div class="card" data-aos="fade-up">
-            <div class="card-header">
-              <div className="folder">
-                <FiFolder />
-              </div>
-              <div className="git-share">
-                <a href="https://google.com/">
-                  <FiGithub />
-                </a>
-              </div>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Lorem ipsum dolor</h5>
+              <h5 class="card-title">Previsão do Clima com Aprendizado Supervisidionado</h5>
               <p class="card-text">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
               </p>
@@ -116,7 +116,7 @@ const Projects = () => {
               </div>
             </div>
             <div class="card-body">
-              <h5 class="card-title">Lorem ipsum dolor</h5>
+              <h5 class="card-title">Previsão do Preço de Imóveis com Aprendizado Supervisidionado</h5>
               <p class="card-text">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
               </p>
@@ -135,7 +135,121 @@ const Projects = () => {
               </div>
             </div>
             <div class="card-body">
-              <h5 class="card-title">Lorem ipsum dolor</h5>
+              <h5 class="card-title">Análise de Tendências de Vendas com Previsão de Séries Temporais</h5>
+              <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+              </p>
+            </div>
+            <div class="card-footer">Lorem, ipsum, dolor</div>
+          </div>
+          <div class="card" data-aos="fade-up">
+            <div class="card-header">
+              <div className="folder">
+                <FiFolder />
+              </div>
+              <div className="git-share">
+                <a href="https://google.com/">
+                  <FiGithub />
+                </a>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Pipeline ETL de Dados Sensíveis de Funcionários</h5>
+              <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+              </p>
+            </div>
+            <div class="card-footer">Lorem, ipsum, dolor</div>
+          </div>
+          <div class="card" data-aos="fade-up">
+            <div class="card-header">
+              <div className="folder">
+                <FiFolder />
+              </div>
+              <div className="git-share">
+                <a href="https://google.com/">
+                  <FiGithub />
+                </a>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Pipeline ETL de Estatísticas de Jogos</h5>
+              <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+              </p>
+            </div>
+            <div class="card-footer">Lorem, ipsum, dolor</div>
+          </div>
+          <div class="card" data-aos="fade-up">
+            <div class="card-header">
+              <div className="folder">
+                <FiFolder />
+              </div>
+              <div className="git-share">
+                <a href="https://google.com/">
+                  <FiGithub />
+                </a>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Sudoku Solver</h5>
+              <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+              </p>
+            </div>
+            <div class="card-footer">Lorem, ipsum, dolor</div>
+          </div>
+          <div class="card" data-aos="fade-up">
+            <div class="card-header">
+              <div className="folder">
+                <FiFolder />
+              </div>
+              <div className="git-share">
+                <a href="https://google.com/">
+                  <FiGithub />
+                </a>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Web Scraping de Produtos de Marketplace com Python</h5>
+              <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+              </p>
+            </div>
+            <div class="card-footer">Lorem, ipsum, dolor</div>
+          </div>
+          <div class="card" data-aos="fade-up">
+            <div class="card-header">
+              <div className="folder">
+                <FiFolder />
+              </div>
+              <div className="git-share">
+                <a href="https://google.com/">
+                  <FiGithub />
+                </a>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Análise de Sentimento em Dados Textuais</h5>
+              <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+              </p>
+            </div>
+            <div class="card-footer">Lorem, ipsum, dolor</div>
+          </div>
+          <div class="card" data-aos="fade-up">
+            <div class="card-header">
+              <div className="folder">
+                <FiFolder />
+              </div>
+              <div className="git-share">
+                <a href="https://google.com/">
+                  <FiGithub />
+                </a>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Assistente Virtual na Extensão do Navegador</h5>
               <p class="card-text">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
               </p>
