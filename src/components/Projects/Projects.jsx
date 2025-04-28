@@ -20,7 +20,9 @@ const Projects = () => {
                 <FiFolder />
               </div>
               <div className="git-share">
-                <a href="https://github.com/sofiasawczenko/autonomous_robot_computer_vision">
+                <a href="https://github.com/sofiasawczenko/autonomous_robot_computer_vision"
+                  target="_blank"
+                  rel="noopener noreferrer">
                   <FiGithub />
                 </a>
               </div>
@@ -39,7 +41,9 @@ const Projects = () => {
                 <FiFolder />
               </div>
               <div className="git-share">
-                <a href="https://github.com/sofiasawczenko/chatbot_rag_langchain_openai">
+                <a href="https://github.com/sofiasawczenko/chatbot_rag_langchain_openai"
+                  target="_blank"
+                  rel="noopener noreferrer">
                   <FiGithub />
                 </a>
               </div>
@@ -58,7 +62,9 @@ const Projects = () => {
                 <FiFolder />
               </div>
               <div className="git-share">
-                <a href="https://github.com/sofiasawczenko/heart_failure_forecasting/tree/main">
+                <a href="https://github.com/sofiasawczenko/heart_failure_forecasting/tree/main"
+                  target="_blank"
+                  rel="noopener noreferrer">
                   <FiGithub />
                 </a>
               </div>
@@ -77,7 +83,9 @@ const Projects = () => {
                 <FiFolder />
               </div>
               <div className="git-share">
-                <a href="https://github.com/sofiasawczenko/weather_forecasting">
+                <a href="https://github.com/sofiasawczenko/weather_forecasting"
+                  target="_blank"
+                  rel="noopener noreferrer">
                   <FiGithub />
                 </a>
               </div>
@@ -96,7 +104,9 @@ const Projects = () => {
                 <FiFolder />
               </div>
               <div className="git-share">
-                <a href="https://github.com/sofiasawczenko/forecasting_house_price">
+                <a href="https://github.com/sofiasawczenko/forecasting_house_price"
+                  target="_blank"
+                  rel="noopener noreferrer">              
                   <FiGithub />
                 </a>
               </div>
@@ -115,7 +125,9 @@ const Projects = () => {
                 <FiFolder />
               </div>
               <div className="git-share">
-                <a href="https://github.com/sofiasawczenko/sales_time_series_analysis">
+                <a href="https://github.com/sofiasawczenko/sales_time_series_analysis"
+                  target="_blank"
+                  rel="noopener noreferrer">
                   <FiGithub />
                 </a>
               </div>
@@ -134,7 +146,9 @@ const Projects = () => {
                 <FiFolder />
               </div>
               <div className="git-share">
-                <a href="https://github.com/sofiasawczenko/ETL_employee_info_pipeline">
+                <a href="https://github.com/sofiasawczenko/ETL_employee_info_pipeline"
+                  target="_blank"
+                  rel="noopener noreferrer">                
                   <FiGithub />
                 </a>
               </div>
@@ -153,7 +167,9 @@ const Projects = () => {
                 <FiFolder />
               </div>
               <div className="git-share">
-                <a href="https://github.com/sofiasawczenko/ETL_game_match_stats">
+                <a href="https://github.com/sofiasawczenko/ETL_game_match_stats"
+                  target="_blank"
+                  rel="noopener noreferrer">                
                   <FiGithub />
                 </a>
               </div>
@@ -172,7 +188,9 @@ const Projects = () => {
                 <FiFolder />
               </div>
               <div className="git-share">
-                <a href="https://github.com/sofiasawczenko/sudoku">
+                <a href="https://github.com/sofiasawczenko/sudoku"
+                  target="_blank"
+                  rel="noopener noreferrer">                
                   <FiGithub />
                 </a>
               </div>
@@ -191,7 +209,9 @@ const Projects = () => {
                 <FiFolder />
               </div>
               <div className="git-share">
-                <a href="https://github.com/sofiasawczenko/meli_webscraping">
+                <a href="https://github.com/sofiasawczenko/meli_webscraping"
+                  target="_blank"
+                  rel="noopener noreferrer">                
                   <FiGithub />
                 </a>
               </div>
@@ -210,7 +230,9 @@ const Projects = () => {
                 <FiFolder />
               </div>
               <div className="git-share">
-                <a href="https://github.com/sofiasawczenko/analyzing_text_sentiment">
+                <a href="https://github.com/sofiasawczenko/analyzing_text_sentiment"
+                  target="_blank"
+                  rel="noopener noreferrer">                
                   <FiGithub />
                 </a>
               </div>
@@ -229,7 +251,9 @@ const Projects = () => {
                 <FiFolder />
               </div>
               <div className="git-share">
-                <a href="https://github.com/sofiasawczenko/aiva_virtual_assistant_ai">
+                <a href="https://github.com/sofiasawczenko/aiva_virtual_assistant_ai"
+                  target="_blank"
+                  rel="noopener noreferrer">                
                   <FiGithub />
                 </a>
               </div>
