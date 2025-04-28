@@ -32,7 +32,7 @@ export const Header = () => {
               <h1 ref={headingRef} aria-label="Hi, I'm Sofia.">Hi, I'm Sofia.</h1>
             </div>
             <div className="row header-two" data-aos="fade-up">
-              <h2>welcome to my Portfolio</h2>
+              <h2>Bem-vindo(a) ao meu Portfolio de Data Science</h2>
             </div>
             <div className="row landing-description" data-aos="fade-up">
               <p>
@@ -43,7 +43,7 @@ export const Header = () => {
                 <a className="work-link" href="https://fibra.com/">
                   encontrar padroes em um contexto de incerteza
                 </a>
-                {" "}sempre me fascinou. Aqui, compartilho um pouco mais minhas descobertas atraves dos dados enquanto navego pelo mundo da tecnologia.
+                {" "}sempre me fascinou. Por aqui, divido algumas das minhas descobertas por meio dos dados enquanto navego pelo universo da tecnologia.
               </p>
             </div>
             <div className="resume-btn" data-aos="fade-up">
