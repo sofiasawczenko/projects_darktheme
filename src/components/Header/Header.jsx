@@ -32,7 +32,7 @@ export const Header = () => {
               <h1 ref={headingRef} aria-label="Hi, I'm Sofia.">Hi, I'm Sofia.</h1>
             </div>
             <div className="row header-two" data-aos="fade-up">
-              <h2>Bem-vindo ao meu Portfolio de Data Science</h2>
+              <h3>Bem-vindo(a) ao meu Portfolio de Data Science</h3>
             </div>
             <div className="row landing-description" data-aos="fade-up">
               <p>

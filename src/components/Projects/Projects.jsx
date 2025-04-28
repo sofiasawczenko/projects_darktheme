@@ -45,7 +45,7 @@ const Projects = () => {
               </div>
             </div>
             <div class="card-body">
-              <h5 class="card-title">Chatbot</h5>
+              <h5 class="card-title">Chatbot com RAG</h5>
               <p class="card-text">
               Criacao de um chatbot no console utilizando RAG (Retrieval Augmented Generation) com LangChain e o LLM da OpenAI. O chatbot pode responder a perguntas com base em PDFs armazenados em uma pasta.
               </p>

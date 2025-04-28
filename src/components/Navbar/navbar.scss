@@ -1,19 +1,17 @@
 .nav-container {
- 
   position: fixed;
   display: flex;
-  margin-left: 50%;
+  // margin-left: 50%;
   flex-wrap: nowrap;
   align-items: center;
   justify-content: flex-end;
   top: 0;
   left: 0;
-
   right: 0;
   z-index: 1;
   background: var(--color-bg);
   backdrop-filter: blur(20px);
-  width: 50%;
+  // width: 50%;
 }
 
 .nav {
@@ -38,6 +36,7 @@
     color: #fff;
     padding-right: 1.5rem;
     letter-spacing: 2px;
+    font-size: 1rem;
   }
 }
 

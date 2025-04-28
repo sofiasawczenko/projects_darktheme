@@ -36,7 +36,7 @@ const Navbar = () => {
             href="#about"
             onClick={() => handleClick("about")}
           >
-            <span class="digit">02.</span> <span class="text">Sobre mim</span>
+            <span class="digit">02.</span> <span class="text">Sobre</span>
           </a>
         </li>
         <li class="nav-item">
