@@ -2,8 +2,6 @@ import React from "react";
 import "./projects.scss";
 import { FiFolder } from "react-icons/fi";
 import { FiGithub } from "react-icons/fi";
-import { RiShareCircleLine } from "react-icons/ri";
-import Aos from "aos";
 import "aos/dist/aos.css";
 
 const Projects = () => {

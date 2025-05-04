@@ -31,9 +31,8 @@ export const About = () => {
             Sao Jose dos Campos, Sao Paulo
           </a>.
           Nessas empresas, atuei em projetos de alta complexidade e em equipes globais. 
-          Meus pilares sao flexibilidade para trabalhar em diversas frentes e tecnologias, criatividade na busca de solucoes e resiliencia diante de desafios complexos. 
-          Gosto de colocar a mao na massa e sempre busco abordagens simples e pragmaticas para resolver problemas. 
-          Meu foco e desenvolver solucoes eficientes, sempre centradas no problema.
+          Gosto de colocar a mao na massa e sempre busco abordagens simples, sistematicas e pragmaticas para resolver problemas. 
+          Meu foco é desenvolver solucoes eficientes, sempre centradas no problema do negocio.
         </p>
       </div>
       <div className="row about-description">

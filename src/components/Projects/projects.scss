@@ -79,3 +79,37 @@
     
   }
 }
+
+.category-section {
+  margin-bottom: 2rem;
+  
+  .category-title {
+    color: var(--color-slate-lightest);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    border-left: 3px solid #986DFF;
+  }
+}
+
+.card {
+  &.data-engineering {
+    background: var(--pastel-purple);
+    border-color: #986DFF;
+  }
+  
+  &.data-analysis {
+    background: var(--pastel-blue);
+    border-color: #6495ED;
+  }
+  
+  &.data-science {
+    background: var(--pastel-green);
+    border-color: #3CB371;
+  }
+  
+  &.artificial-intelligence {
+    background: var(--pastel-yellow);
+    border-color: #FFD700;
+  }
+}
